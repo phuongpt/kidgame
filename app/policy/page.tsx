@@ -15,7 +15,7 @@ export default function Home() {
 						<Link
 							key={item.href}
 							href={item.href}
-							className="text-sm duration-500 text-zinc-500 hover:text-zinc-300"
+							className="text-sm duration-200 text-zinc-500 hover:text-zinc-300"
 						>
 							{item.name}
 						</Link>
@@ -28,20 +28,11 @@ export default function Home() {
 				<h1 className="text-3xl font-bold mb-4">Privacy Policy</h1>
 				<p className="mb-4 text-sm text-zinc-500 ">We take your privacy seriously and want you to feel comfortable using our game. This policy explains how we collect, use, and share your information, including with our advertising partner, Admob.</p>
 				<h2 className="text-xl font-bold mb-2">Information We Collect</h2>
-				<p className="mb-4 text-sm text-zinc-500 ">We may collect the following types of information:</p>
-				<ul className="list-disc ml-8 mb-4 text-sm text-zinc-500 ">
-					<li>Anonymous usage data such as device type, operating system, and gameplay patterns in order to improve the game and user experience</li>
-					<li>Your advertising identifier (such as your Google Advertising ID) to display personalized ads in the game via Admob</li>
-				</ul>
-				<h2 className="text-xl font-bold mb-2">How We Use Your Information</h2>
-				<p className="mb-4 text-sm text-zinc-500 ">We may use your information in the following ways:</p>
-				<ul className="list-disc ml-8 mb-4 text-sm text-zinc-500 ">
-					<li>To analyze usage patterns and improve the game and user experience</li>
-					<li>To display personalized ads in the game via Admob</li>
-					<li>To send you updates and promotional materials related to the game, with your consent</li>
-				</ul>
+				<p className="mb-4 text-sm text-zinc-500 ">We do not collect any personal information from users.</p>
+				<h2 className="text-xl font-bold mb-2">How We Use Admob</h2>
+				<p className="mb-4 text-sm text-zinc-500 ">We use Admob to display advertisements in the game. However, we do not use Admob's personalized advertising features, so users will not see ads that are based on their browsing behavior or other personal information. Admob may still use cookies or similar technologies for other purposes, but we do not collect or share any data with Admob.</p>
 				<h2 className="text-xl font-bold mb-2">Data Sharing and Security</h2>
-				<p className="mb-4 text-sm text-zinc-500 ">We do not share your personal information with third parties except as required by law. However, Admob may collect and use your information according to their own privacy policy.</p>
+				<p className="mb-4 text-sm text-zinc-500 ">We do not share any user data with third parties.</p>
 				<h2 className="text-xl font-bold mb-2">Changes to this Policy</h2>
 				<p className="mb-4 text-sm text-zinc-500 ">We reserve the right to modify this policy at any time. Any changes will be posted on our website and will be effective immediately upon posting.</p>
 				<h2 className="text-xl font-bold mb-2">Contact Us</h2>
@@ -50,3 +41,5 @@ export default function Home() {
 		</div>
 	);
 }
+
+
