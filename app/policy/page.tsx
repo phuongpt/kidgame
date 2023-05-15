@@ -29,8 +29,6 @@ export default function Home() {
 				<p className="mb-4 text-sm text-zinc-500 ">We take your privacy seriously and want you to feel comfortable using our game. This policy explains how we collect, use, and share your information, including with our advertising partner, Admob.</p>
 				<h2 className="text-xl font-bold mb-2">Information We Collect</h2>
 				<p className="mb-4 text-sm text-zinc-500 ">We do not collect any personal information from users.</p>
-				<h2 className="text-xl font-bold mb-2">How We Use Admob</h2>
-				<p className="mb-4 text-sm text-zinc-500 ">We use Admob to display advertisements in the game. However, we do not use Admob's personalized advertising features, so users will not see ads that are based on their browsing behavior or other personal information. Admob may still use cookies or similar technologies for other purposes, but we do not collect or share any data with Admob.</p>
 				<h2 className="text-xl font-bold mb-2">Data Sharing and Security</h2>
 				<p className="mb-4 text-sm text-zinc-500 ">We do not share any user data with third parties.</p>
 				<h2 className="text-xl font-bold mb-2">Changes to this Policy</h2>
